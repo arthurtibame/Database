@@ -3,9 +3,9 @@
 
 
 # First day:
-### Step1.  Install Mysql:
+### 1.  Install Mysql:
 ##### choose the version - Windows (x86, 32-bit), MSI Installer
 ##### and the link is as follows:
 ###### [Download Link](https://dev.mysql.com/downloads/installer/)
 
-### CREATE DATABASE db01;
+### 2.  Mysql Query:
