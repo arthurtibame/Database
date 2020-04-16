@@ -10,6 +10,10 @@
 
 ### 2.  Mysql Query:
 ##### b. Create Database (here means db01) and check whether it exists or not 
-```mysql
+```sql
 CREATE DATABASE IF NOT EXISTS db01;
+```
+##### > Or there is an alternative in mysql
+```sql
+CREATE SCHEMA IF NOT EXISTS db02
 ```
