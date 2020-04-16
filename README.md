@@ -35,5 +35,5 @@ SHOW COLLATION LIKE 'big5%';
 ALTER DATABASE db02
 	-- choose character set 
 	CHARACTER SET big5  
-  -- choose collate
+  	-- choose collate
 	COLLATE big5_bin;  
