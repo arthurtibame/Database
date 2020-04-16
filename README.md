@@ -10,6 +10,6 @@
 
 ### 2.  Mysql Query:
 ##### b. Create Database (here means db01) and check whether it exists or not 
-```sql
+```mysql
 CREATE DATABASE IF NOT EXISTS db01;
 ```
