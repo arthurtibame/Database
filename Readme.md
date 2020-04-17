@@ -1,17 +1,17 @@
 ![tes test](https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png)
 
 
-| MySQL       			|Completed		            | Date  |   Folder  |
+| MySQL       			|Completed		      | Date  |   Folder  |
 | ------------------|:-----------------------:|:-----:|----------:|
-| Introduction   		|   :white_check_mark:		| 04/16 |   Day01   |
-| :interrobang:     |   :x:	                  |  nan  |           |
-| :interrobang:   	|   :x:     		          |  nan  |           | 
-| :interrobang: 	  |   :x:			              |  nan  | |
-| :interrobang:		  |   :x:     	            |  nan  | |
-| :interrobang:		  |   :x:     	            |  nan  | |
-| :interrobang: 	  |   :x:     	            |  nan  | |
-| :interrobang:	    |   :x:    	              |  nan	| |
-| :interrobang:	    |   :x:    	              |  nan	| |
+| Introduction 		|   :white_check_mark:	  | 04/16 |   Day01   |
+| Create Table      |   :white_check_mark:    |  04/16|           |
+| :interrobang:   	|   :x:     		      |  nan  |           | 
+| :interrobang: 	|   :x:	    		      |  nan  | |
+| :interrobang:		|   :x:     	          |  nan  | |
+| :interrobang:		|   :x:     	          |  nan  | |
+| :interrobang: 	|   :x:     	          |  nan  | |
+| :interrobang:	    |   :x:    	              |  nan  | |
+| :interrobang:	    |   :x:    	              |  nan  | |
 
 
 ```python
