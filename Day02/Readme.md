@@ -41,7 +41,7 @@ DESC db01.employee;
 -- create new table test
 CREATE TABLE IF NOT EXISTS test(
 	a		INT			NOT NULL,
-    b 		DECIMAL(3)			,
+        b 		DECIMAL(3)			,
 	C		VARCHAR(10)			
 );
 

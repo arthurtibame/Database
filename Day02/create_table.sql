@@ -57,3 +57,23 @@ ALTER TABLE db01.test MODIFY c VARCHAR(40) AFTER a;
 /*	change column name  */
 -- change column name and the status of column
 ALTER TABLE db01.test CHANGE a a_change INT;
+
+/* drop column and change table name in table db01.test */
+-- drop column a
+ALTER TABLE db01.test DROP a;
+
+-- rename column
+ALTER TABLE db01.test RENAME test_rename;
+
+-- dorp table test_rename
+
+DROP TABLE IF EXISTS db01.test_rename;
+
+/* copy the structure of employee */
+CREATE TABLE db01.employee_copy LIKE db01.employee;
+
+-- check status
+DESC  db01.employee;
+DESC db01.employee_copy;
+DROP TABLE IF EXISTS db01.employee_copy;
+
