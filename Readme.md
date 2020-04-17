@@ -4,7 +4,7 @@
 | MySQL       			|Completed		      | Date  |   Folder  |
 | ------------------|:-----------------------:|:-----:|----------:|
 | Introduction 		|   :white_check_mark:	  | 04/16 |   Day01   |
-| Create Table      |   :white_check_mark:    |  04/16|           |
+| Create Table      |   :white_check_mark:    | 04/16 |   Day02   |
 | :interrobang:   	|   :x:     		      |  nan  |           | 
 | :interrobang: 	|   :x:	    		      |  nan  | |
 | :interrobang:		|   :x:     	          |  nan  | |

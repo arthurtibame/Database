@@ -2,7 +2,7 @@
 	CTRL + ENTER
  */
 -- create employee table
-CREATE TABLE IF NOT EXISTs db01.employee(
+CREATE TABLE IF NOT EXISTS db01.employee(
 	empno		DECIMAL(4)		PRIMARY KEY,
     ename		VARCHAR(30)		NOT NULL,
     hiredate	DATE			NOT NULL,
