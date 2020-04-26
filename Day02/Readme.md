@@ -2,21 +2,6 @@
 
 
 # Second day:
-
-| Main Points  			                  |     syntax               |
-| ------------------------------------|:------------------------:|
-| Create Table		                    |   CREATE TABLE table_name(col_name col_definition)| 
-| Show table status                   |   SHOW TABLE IN db_name   | 
-| Description of table   	            |   DESC db_name.tb_name     		          |  
-| Change column type                  |   ALTER TABLE tb_name Modify col_name col_type [position]	    		          |  
-| Add new column                      |   ALTER TABLE tb_name ADD col_name col_type [position]	    		            |
-| Rename column	                      |   ALTER TABLE tb_name RENAME COLUMN col_name TO new_col_name 	              |
-| Get datetime now                    |   SELECT SYSDATE(); SELECT NOW();       	            |
-| Round       		                    |   ROUND(conditions)  	            |
-| Calculate date difference 	        |   DATEDIFF(....)     	            |
-  
-  
-
 ### 1. Create table employee:
 ```sql
 CREATE TABLE IF NOT EXISTS db01.employee(
@@ -88,14 +73,4 @@ ALTER TABLE db01.test MODIFY c VARCHAR(40) AFTER a;
 /*	change column name  */
 -- change column name and the status of column
 ALTER TABLE db01.test CHANGE a a_change INT;
-```
-
-
-```sql 
--- get Seniority by year and month
-SELECT empno, ename, hiredate,
-	ROUND(DATEDIFF(CURDATE(), hiredate)/365) AS 'round_len_year',
-	DATEDIFF(NOW(), hiredate) div 365 AS 'len_year',
-    DATEDIFF(CURDATE(), hiredate) % 365 DIV 30  AS 'len_month'
-    FROM employee;
 ```

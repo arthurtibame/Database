@@ -23,5 +23,3 @@ ALTER DATABASE db02
 	CHARACTER SET big5  
     -- choose collate
 	COLLATE big5_bin;  
--- drop db02 
-DROP DATABASE db02;
